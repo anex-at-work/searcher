@@ -1,0 +1,9 @@
+require: rubocop-rspec
+AllCops:
+  Exclude:
+    - 'config/**/*'
+Metrics/LineLength:
+  Max: 160
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
